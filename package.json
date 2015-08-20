@@ -1,0 +1,22 @@
+{
+  "name": "tagged-template-escape",
+  "version": "1.0.0",
+  "description": "Customizable escaping for es6 tagged template strings",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean; babel --source-maps --optional runtime --stage 1 -d dist src",
+    "watch": "npm run clean; babel --source-maps --optional runtime --stage 1 -d dist -w src",
+    "test": "node dist/test.js"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "babel-eslint": "^3.1.17",
+    "babel-runtime": "^5.8.20",
+    "semistandard": "^7.0.2"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  },
+  "license": "MIT"
+}
