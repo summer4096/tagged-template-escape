@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Customizable escaping for es6 tagged template strings",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/summer4096/tagged-template-escape.git"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean; babel --source-maps --optional runtime --stage 1 -d dist src",
