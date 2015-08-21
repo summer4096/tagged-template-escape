@@ -1,6 +1,6 @@
 {
   "name": "tagged-template-escape",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Customizable escaping for es6 tagged template strings",
   "main": "index.js",
   "repository": {
@@ -22,5 +22,10 @@
   "semistandard": {
     "parser": "babel-eslint"
   },
-  "license": "MIT"
+  "author": "Summer Davies <github@summer.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/summer4096/tagged-template-escape/issues"
+  },
+  "homepage": "https://github.com/summer4096/tagged-template-escape"
 }
