@@ -1,6 +1,6 @@
 {
   "name": "tagged-template-escape",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Customizable escaping for es6 tagged template strings",
   "main": "index.js",
   "repository": {
