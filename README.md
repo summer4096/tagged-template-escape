@@ -1,5 +1,7 @@
 # tagged-template-escape
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/summer4096/tagged-template-escape.svg)](https://greenkeeper.io/)
+
 Customizable escaping for es6 tagged template strings
 
 ### Get it
