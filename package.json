@@ -1,26 +1,21 @@
 {
   "name": "tagged-template-escape",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Customizable escaping for es6 tagged template strings",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/summer4096/tagged-template-escape.git"
   },
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "npm run clean; babel --source-maps --optional runtime --stage 1 -d dist src",
-    "watch": "npm run clean; babel --source-maps --optional runtime --stage 1 -d dist -w src",
-    "test": "node dist/test.js"
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "node dist/src/test.js"
   },
   "devDependencies": {
-    "babel": "^5.5.8",
-    "babel-eslint": "^3.1.17",
-    "babel-runtime": "^5.8.20",
-    "semistandard": "^7.0.2"
-  },
-  "semistandard": {
-    "parser": "babel-eslint"
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
   },
   "author": "Summer Davies <github@summer.dev>",
   "license": "MIT",
